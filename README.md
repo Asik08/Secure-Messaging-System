@@ -23,8 +23,26 @@ A secure end-to-end encrypted messaging platform with real-time security monitor
 # Clone repository
 git clone https://github.com/yourusername/secure-messaging-system.git
 cd secure-messaging-system
+```
 
-'''bash
+## Usage 🚀
+```bash
+python -m secure_messaging.run
+```
+
+## Main Menu Options:
+
+Register User: Strong password policy enforced (8+ chars, mix of cases, symbols)
+
+Send Message: Encrypted text communication
+
+Send File: Secure .txt file transfer only
+
+Check Messages: View/decrypt received items with auto-integrity checks
+
+Admin Security Logs: View threat dashboard (credentials: admin/admin123)
+
+```
 Project Structure 📁
 .
 ├── secure_messaging/
@@ -42,3 +60,4 @@ Project Structure 📁
 │   └── test_logs.jsonl       # Evaluation data
 ├── run.py                    # CLI interface
 └── requirements.txt
+```
