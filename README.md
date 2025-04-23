@@ -64,7 +64,7 @@ Project Structure 📁
 
 ## Dataset & Models 📊
 
-# Included Resources:
+### Included Resources:
 
 synthetic_logs.jsonl: 240 hours of simulated normal/malicious activity
 
