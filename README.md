@@ -42,6 +42,8 @@ Check Messages: View/decrypt received items with auto-integrity checks
 
 Admin Security Logs: View threat dashboard (credentials: admin/admin123)
 
+---
+
 ```
 Project Structure 📁
 .
@@ -61,6 +63,8 @@ Project Structure 📁
 ├── run.py                    # CLI interface
 └── requirements.txt
 ```
+
+---
 
 ## Dataset & Models 📊
 
