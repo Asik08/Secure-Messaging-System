@@ -61,3 +61,21 @@ Project Structure 📁
 ├── run.py                    # CLI interface
 └── requirements.txt
 ```
+
+## Dataset & Models 📊
+
+Included Resources:
+
+synthetic_logs.jsonl: 240 hours of simulated normal/malicious activity
+
+test_logs.jsonl: Validation dataset with labeled anomalies
+
+Pre-trained models (retrain if needed):
+```bash
+python -m secure_messaging.security_model --train
+```
+## Model Architectures:
+
+Anomaly Detector: Isolation Forest (200 estimators)
+
+Threat Classifier: Random Forest (200 estimators, max_depth=15)
