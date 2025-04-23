@@ -3,7 +3,6 @@
 A secure end-to-end encrypted messaging platform with real-time security monitoring, anomaly detection, and tamper-proof message/file exchange.  
 **Key Features**: AES-GCM Encryption • Brute-Force Protection • HMAC Integrity Checks • ML-Powered Threat Detection.
 
----
 
 ## Features ✨
 - **Secure Messaging**: Encrypted text/file exchange with SHA-256 checksum validation
@@ -17,7 +16,6 @@ A secure end-to-end encrypted messaging platform with real-time security monitor
   - Real-time alerts for brute-force attacks, data exfiltration, and integrity violations
 - **Admin Dashboard**: View security logs, threat statistics, and system alerts
 
----
 
 ```bash
 # Clone repository
@@ -42,10 +40,9 @@ Check Messages: View/decrypt received items with auto-integrity checks
 
 Admin Security Logs: View threat dashboard (credentials: admin/admin123)
 
----
 
+## Project Structure 📁
 ```
-Project Structure 📁
 .
 ├── secure_messaging/
 │   ├── messenger.py          # Core messaging logic
@@ -64,8 +61,6 @@ Project Structure 📁
 └── requirements.txt
 ```
 
----
-
 ## Dataset & Models 📊
 
 #### Included Resources:
@@ -78,6 +73,7 @@ Pre-trained models (retrain if needed):
 ```bash
 python -m secure_messaging.security_model --train
 ```
+
 ## Model Architectures:
 
 Anomaly Detector: Isolation Forest (200 estimators)
